@@ -8,6 +8,7 @@ public class CalculoAreaCirculo {
 		
 			double area, raio, x = 2;
 		
+			System.out.println("Digite o Raio do circulo:");
 			raio = sc.nextDouble();
 		
 			raio = Math.pow(raio,  x);
