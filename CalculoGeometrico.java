@@ -8,9 +8,13 @@ public class CalculoGeometrico {
 		
 		double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
 		
+		System.out.println("Digite valor A: ");
 		a = sc.nextDouble();
+		System.out.println("Digite valor B: ");
 		b = sc.nextDouble();
+		System.out.println("Digite valor C: ");
 		c = sc.nextDouble();
+		System.out.println();
 		
 		triangulo = a * c / 2;
 		circulo = 3.14159 * (c * c);
@@ -18,6 +22,7 @@ public class CalculoGeometrico {
 		quadrado = b * b;
 		retangulo = a * b;
 		
+		System.out.println("------------------\n");
 		System.out.printf("Triangulo: %.3f\n", triangulo);
 		System.out.printf("Circulo: %.3f\n", circulo);
 		System.out.printf("Trapezio: %.3f\n", trapezio);
